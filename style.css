@@ -6,7 +6,10 @@
 
 }
 
-
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 /*---------------------------------------CONFIG HEADER--------------------------------------------*/
 header{
@@ -29,13 +32,13 @@ header img{
 
 .informations{
     background-color: #514988;
-    width: 50vw;
+
 }
 
 
 .contdown{
-    width: 50vw;
-    height: 50vh;
+    width: 50;
+    height: 150px;
     margin-left: 10px;
 }
 
@@ -75,7 +78,7 @@ header img{
 .countdown-items{
     display: flex;
     gap: 50px;
-    margin-top: 30px;
+    margin-top: px;
 }
 
 .countdown-items h1{
@@ -106,7 +109,7 @@ footer img{
    
 }
 
-footer button{
+button{
     margin-left: 150px;
     background: #514988;
     border-radius: 20px;
@@ -115,6 +118,7 @@ footer button{
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
+    margin-top: 150px;
 }
 
 button:hover{
@@ -129,7 +133,9 @@ footer{
     align-items: center;
 }
 
-
+.footer{
+    margin-top: 90px;
+}
 
 /*---------------TRABALHANDO EFEITO NOS CARDS------------------*/
 
@@ -155,5 +161,28 @@ video{
 
 
 
+@media only screen and (max-width: 1000px) {
+    .container {
+      flex-direction: column;
+    }
 
+    .footer{
+        margin-top: 500px;
+    }
+
+    video{
+        width: 50%;
+    }
+
+    .informations{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+    }
+
+
+
+  }
 

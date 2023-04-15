@@ -17,7 +17,7 @@
     </header>
 
 <section class="container">
-    <section class="informations">
+    <div class="informations">
       <img src="imgs/text.svg" alt="">
       <h3>
             Você consegue sentir? É aquela sensação de<br>
@@ -31,9 +31,8 @@
                     aventuras épicas a cada passo pelos nossos<br>
                      corredores.
         </h3>
-    </section>
-
-            <section class="contdown">
+    </div>
+            <div class="contdown">
                 <div class="countdown-items">
                     <h1 id="days">00D</h1>
                     <h1 id="hours">00H</h1>
@@ -41,9 +40,13 @@
                     <h1 id="seconds">00S</h1>
                 </div>
                 <div class="video">
-                    <video src="assets/Arlequina.mp4" autoplay loop muted></video>
+                    <div>
+                        <video src="assets/Arlequina.mp4" autoplay loop muted></video>
+                    </div>
                 </div>
-            </section>
+                <button>GARANTA O SEU!</button>
+            </div>
+           
 </section>
 
 
@@ -55,7 +58,7 @@
                     <img src="imgs/sextafeira.svg" onmouseover="highLightCard('#sexta')"  onmouseout="highLightCard('#sexta')" id="sexta" alt="">
                     <img src="imgs/esgotado.svg" onmouseover="highLightCard('#sabado')"  onmouseout="highLightCard('#sabado')" id="sabado" alt="">
                     <img src="imgs/doming.svg" onmouseover="highLightCard('#domingo')"  onmouseout="highLightCard('#domingo')" id="domingo" alt="">
-                <button>GARANTA O SEU!</button>
+                
             </div>
         </footer>
     </section>
