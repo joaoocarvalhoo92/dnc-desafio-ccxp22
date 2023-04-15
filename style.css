@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'verdana';
+
+}
+
+
+
+/*---------------------------------------CONFIG HEADER--------------------------------------------*/
+header{
+    width: 100%;
+    background-color: #FFD900 ; 
+    padding: 20px;
+}
+
+header img{
+    width: 10rem;
+}
+
+/*---------------------------------------CONFIG CONTAINER--------------------------------------------*/
+
+.container {
+    display: flex;
+    gap: 10px;
+    width: 100vw;
+}
+
+.informations{
+    background-color: #514988;
+    width: 50vw;
+}
+
+
+.contdown{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 10px;
+}
+
+
+/*---------------------------------------CONFIG INFORMATIONS--------------------------------------------*/
+
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  
+    
+}
+
+
+.informations img{
+    max-width: 80%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-top: 40px;
+
+    
+}
+
+.informations h3{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+}
+
+
+.countdown-items{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.countdown-items h1{
+    color: #514988;
+    font-size: 3rem;
+}
+
+
+
+/*-------------------TRABALHANDO O FOOTER-----------------------*/
+
+.footer{
+    margin-left: 80px;
+    justify-content: center;
+
+
+}
+.footer h1{
+    color: #F3C61F;
+    margin-top: 10px;
+    font-size: 1.3rem;
+   
+}
+
+footer img{
+    width: 10rem;
+    margin-top: 20px;
+   
+}
+
+footer button{
+    margin-left: 150px;
+    background: #514988;
+    border-radius: 20px;
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 10px 10px 10px grey;
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.2s ease-in-out;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*---------------TRABALHANDO EFEITO NOS CARDS------------------*/
+
+.high-Light-Card{
+ 
+    box-shadow: 10px 10px 20px grey;
+    scale: 1.1;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+/*
+-------CONFIG DO VIDEO------,
+
+*/
+
+video{
+    width: 42rem;
+}
+
+
+
+
+
+
