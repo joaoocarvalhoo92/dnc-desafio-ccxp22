@@ -167,11 +167,11 @@ video{
     }
 
     .footer{
-        margin-top: 500px;
+        margin-top: 800px;
     }
 
     video{
-        width: 50%;
+        width: 100%;
     }
 
     .informations{
@@ -182,6 +182,21 @@ video{
         width: 100%;
     }
 
+    .countdown-items{
+     
+        display: flex;
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .countdown{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 
 
   }
